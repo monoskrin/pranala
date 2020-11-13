@@ -1345,6 +1345,15 @@
     }
   }
   </script>
+  <script>
+  var form = document.querySelector('form[action$="/search"][method="get"]');
+  form.o.forEach(radio => {
+    radio.addEventListener("change", e => {
+      // Click the form button on change event
+      form.q.value && form.querySelector('button').click();
+    }, false);
+  });
+  </script>
   <script src="/blogger/search.js?i=1&amp;id=&quot;7669736654325786252&quot;&amp;container=.post-body&amp;e=myHookFn"></script>
   <!-- End: CSE JS -->
 </body>
