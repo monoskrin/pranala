@@ -1233,13 +1233,19 @@
 </head>
 
 <body>
-  <header>
-    <form action="/search" method="get">
-      <p>
-        <input name="q" type="text">
-        <button type="submit">Search</button>
-      </p>
-    </form>
+  <header class="w-full bg-white" role="banner">
+    <div class="mx-auto">
+      <div class="flex flex-wrap items-center justify-between pl-2 pr-4 sm:pl-6 sm:pr-8 mx-auto">
+        <div class="z-10">
+          <form action="/search" method="get">
+            <p>
+              <input name="q" type="text">
+              <button type="submit">Search</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
     <article>
@@ -1297,12 +1303,12 @@
       </div>
     </div>
   </footer>
-    <script>
-    function myHookFn() {
-        console.log([arguments[0], this, arguments]);
-    }
-    </script>
-<script src="/blogger/search.js?i=1&amp;id=&quot;7669736654325786252&quot;&amp;e=myHookFn"></script>
+  <script>
+  function myHookFn() {
+    console.log([arguments[0], this, arguments]);
+  }
+  </script>
+  <script src="/blogger/search.js?i=1&amp;id=&quot;7669736654325786252&quot;&amp;e=myHookFn"></script>
 </body>
 
 </html>
