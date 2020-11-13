@@ -369,7 +369,7 @@
         }
 
         if (_show()) {
-            load(blogger('298900102869691923') + param(extend(settings.query, {
+            load(blogger('7669736654325786252') + param(extend(settings.query, {
                 'callback': '_' + fn + '_',
                 'max-results': 21,
                 'orderby': 'updated'
