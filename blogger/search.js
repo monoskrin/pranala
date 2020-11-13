@@ -111,12 +111,12 @@
             target: 0,
             chunk: 50,
             text: {
-                title: 'Search results for query <em>%s%</em>',
-                loading: 'Searching&hellip;',
-                previous: 'Previous',
-                next: 'Next',
-                empty: 'No results for query <em>%s%</em>.',
-                end: 'No more results for query <em>%s%</em>.'
+                title: 'Hasil penelusuran untuk kueri <em>%s%</em>',
+                loading: 'Pencarian&hellip;',
+                previous: 'Sebelumya',
+                next: 'Selanjutnya',
+                empty: 'Tidak ada hasil untuk kueri <em>%s%</em>.',
+                end: 'Sampai kini pun tidak ada hasil untuk kueri <em>%s%</em>.'
             },
             query: {
                 'alt': 'json',
