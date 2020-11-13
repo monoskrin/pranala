@@ -79,7 +79,7 @@
   margin:0;
 }
 
-.js-search.ltr:not(.has-image):not(.has-excerpt) li {margin:0 0 0 2em}
+.js-search.ltr:not(.has-image):not(.has-excerpt) li {margin:0 0 1em 2em}
 .js-search.rtl:not(.has-image):not(.has-excerpt) li {margin:0 2em 0 0}
 
 .js-search-float {box-shadow:0 5px 10px rgba(0,0,0,.4)}
