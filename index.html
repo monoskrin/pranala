@@ -1271,7 +1271,14 @@ margin-top: 1em;
         <div class="z-10">
           <form action="/search" method="get">
             <p>
-              <input name="q" type="search" placeholder="Telusuri Monoskrin atau Google" required>
+              <input list="browsers" name="q" type="search" placeholder="Telusuri Monoskrin atau Google" required>
+<datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
               <button type="submit">Telusuri</button>
             </p>
             <p>
