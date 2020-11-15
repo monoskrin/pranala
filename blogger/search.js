@@ -111,12 +111,12 @@
             target: 0,
             chunk: 50,
             text: {
-                title: 'Hasil penelusuran untuk kueri <em>%s%</em>',
+                title: 'Hasil penelusuran untuk kueri <em>%s%</em> di situsweb Monoskrin.',
                 loading: 'Pencarian&hellip;',
                 previous: 'Sebelumya',
                 next: 'Selanjutnya',
-                empty: 'Tidak ada hasil untuk kueri <em>%s%</em>.',
-                end: 'Sampai kini pun tidak ada hasil untuk kueri <em>%s%</em>.'
+                empty: 'Tidak ada hasil untuk kueri <em>%s%</em> di situsweb Monoskrin.',
+                end: 'Sampai kini pun tidak ada hasil untuk kueri <em>%s%</em> di situsweb Monoskrin.'
             },
             query: {
                 'alt': 'json',
