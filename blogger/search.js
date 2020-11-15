@@ -111,12 +111,12 @@
             target: 0,
             chunk: 50,
             text: {
-                title: 'Hasil penelusuran untuk kueri <em>%s%</em> di situsweb Monoskrin.',
+                title: 'Hasil penelusuran untuk kueri <em>%s%</em> di situsweb <a href="https://monoskrin.com">Monoskrin.com</a>.',
                 loading: 'Pencarian&hellip;',
                 previous: 'Sebelumya',
                 next: 'Selanjutnya',
-                empty: 'Tidak ada hasil untuk kueri <em>%s%</em> di situsweb Monoskrin.',
-                end: 'Sampai kini pun tidak ada hasil untuk kueri <em>%s%</em> di situsweb Monoskrin.'
+                empty: 'Tidak ada hasil untuk kueri <em>%s%</em> di situsweb <a href="https://monoskrin.com">Monoskrin.com</a>.',
+                end: 'Sampai kini pun tidak ada hasil untuk kueri <em>%s%</em> di situsweb <a href="https://monoskrin.com">Monoskrin.com</a>.'
             },
             query: {
                 'alt': 'json',
