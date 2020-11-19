@@ -1410,7 +1410,8 @@ margin-top: 1em;
     <script>
     var result = document.getElementById('result');
     if (window.location.search) {
-        result.value = JSON.stringify(q2o(window.location.search), null, 2);
+        var config = q2o(window.location.search);
+        result.value = console.log(config.s);
     }
     </script>
 
