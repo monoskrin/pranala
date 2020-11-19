@@ -50,6 +50,8 @@
   <meta name="msapplication-config" content="/browserconfig.xml?v=dLme40PYJb">
   <meta name="theme-color" content="#f52761">
 
+  <script src="/assets/js/query-string-parser/q2o.js"></script>
+  <script src="/assets/js/query-string-parser/o2q.js"></script>
 
   <style>
   /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1271,7 +1273,7 @@ margin-top: 1em;
         <div class="z-10">
           <form action="/search" method="get">
             <p>
-              <input list="monoskrin" name="q" type="search" placeholder="Telusuri Monoskrin atau Google" required>
+              <input id="result" list="monoskrin" name="q" type="search" placeholder="Telusuri Monoskrin atau Google" required>
 <datalist id="monoskrin">
     <option value="Sinema">
     <option value="Sejarah Film">
@@ -1403,6 +1405,15 @@ margin-top: 1em;
   </script>
   <script src="/blogger/search.js?i=1&amp;id=&quot;7669736654325786252&quot;&amp;container=.post-body&amp;e=myHookFn"></script>
   <!-- End: CSE JS -->
+
+
+    <script>
+    var result = document.getElementById('result');
+    if (window.location.search) {
+        result.innerHTML = JSON.stringify(q2o(window.location.search), null, 2);
+    }
+    </script>
+
 </body>
 
 </html>
