@@ -1411,7 +1411,7 @@ margin-top: 1em;
     var result = document.getElementById('result');
     if (window.location.search) {
         var config = q2o(window.location.search);
-        result.value = JSON.stringify(config.s);
+        result.value = document.write(config.s);
     }
     </script>
 
