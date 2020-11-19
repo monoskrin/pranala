@@ -1410,7 +1410,8 @@ margin-top: 1em;
     <script>
     var result = document.getElementById('result');
     if (window.location.search) {
-        result.value = document.write(q2o(window.location.search).q);
+        var config = q2o(window.location.search);
+        result.value = document.write(config.search);
     }
     </script>
 
